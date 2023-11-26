@@ -1,0 +1,5 @@
++ When a replay is uploaded to the server, the data is parsed (parser.py has 
+  some placeholder data) and should be saved into a database (sqlite3).
+
++ When a replay is uploaded, the bot could automatically update some Discord
+  posts to reflect the newly updated stats.

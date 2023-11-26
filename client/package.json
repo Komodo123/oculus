@@ -1,0 +1,23 @@
+{
+  "name": "Oculus",
+  "version": "1.0.0",
+  "description": "Automatically uploads Warcraft III replays to a server.",
+  "author": "Anders",
+  "main": "index.js",
+  "scripts": {
+    "make": "electron-forge make",
+    "package": "electron-forge package",
+    "publish": "electron-forge publish",
+    "start": "electron-forge start"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.1.0",
+    "@electron-forge/maker-squirrel": "^7.1.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.1.0",
+    "electron": "^27.1.2"
+  }
+}
